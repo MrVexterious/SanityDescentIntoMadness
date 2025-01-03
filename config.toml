@@ -14,7 +14,7 @@
 	[sanity.passive]
 		#This value will be added to sanity each second regardless of any other factors
 		#Range: -100.0 ~ 100.0
-		passive = 0.0
+		passive = 0.1
 		#Sanity gain per second during rainy weather or in water
 		#Range: -100.0 ~ 100.0
 		raining = -0.2
@@ -29,7 +29,7 @@
 		ender_man_anger = -5.0
 		#Players will gain this amount of sanity per second while being near their pets
 		#Range: -100.0 ~ 100.0
-		pet = 0.15
+		pet = 0.2
 		#Players will gain this amount of sanity per second while being near any monsters
 		#This value is doubled if the monster is aggressive towards the player
 		#Range: -100.0 ~ 100.0
@@ -42,7 +42,7 @@
 		darkness_threshold = 4
 		#Players will gain this amount of sanity per second while being in the light
 		#Range: -100.0 ~ 100.0
-		lightness = 0.0
+		lightness = 0.1
 		#Minimum light level considered to be lightness (inclusive)
 		#Range: 0 ~ 15
 		lightness_threshold = 4
@@ -51,13 +51,13 @@
 		block_stuck = -0.09
 		#Players moving on a dirt path or a carpet receive this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		dirt_path = 0.09
+		dirt_path = 0.1
 		#Nearby jukebox playing a pleasant melody gives this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		jukebox_pleasant = 0.08
+		jukebox_pleasant = 0.2
 		#Nearby jukebox playing an unsettling melody gives this amount of sanity per second (this takes priority over pleasant melodies)
 		#Range: -100.0 ~ 100.0
-		jukebox_unsettling = -0.11
+		jukebox_unsettling = -0.2
 		#Define a list of blocks that affect sanity of players standing near them
 		#A block should be included as follows: block_registry_name[property1=value1,property2=value2];A;B;C
 		#Where A is how much sanity is gained per second, B is a radius in blocks,
@@ -77,7 +77,7 @@
 		sleeping_cd = 1200.0
 		#Players will gain sanity based on the damage they take from any sources with the ratio of 1 to this number
 		#Range: -100.0 ~ 100.0
-		hurt_ratio = -1.0
+		hurt_ratio = -0.8
 		#Spawning a baby chicken by throwing an egg restores this amount of sanity
 		#Range: -100.0 ~ 100.0
 		baby_chicken_spawn = 5.0
@@ -86,23 +86,23 @@
 		baby_chicken_spawn_cd = 300.0
 		#Earning an advancement gives this amount of sanity
 		#Range: -100.0 ~ 100.0
-		advancement = 20.0
+		advancement =50.0
 		#Breeding two animals together gives this amount of sanity
 		#Range: -100.0 ~ 100.0
-		animal_breeding = 9.0
+		animal_breeding = 10.0
 		#Breeding animals cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
 		animal_breeding_cd = 600.0
 		#Players gain this amount of sanity for every point of damage dealt to peaceful animals (incl. neutral ones)
 		#This value is doubled for baby animals
 		#Range: -100.0 ~ 100.0
-		animal_hurt_ratio = -0.5
+		animal_hurt_ratio = -0.2
 		#Players gain this amount of sanity upon their pets' death
 		#Range: -100.0 ~ 100.0
-		pet_death = -60.0
+		pet_death = -50.0
 		#Players gain this amount of sanity upon successfully trading with a villager
 		#Range: -100.0 ~ 100.0
-		villager_trade = 20.0
+		villager_trade = 10.0
 		#Villager trade cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
 		villager_trade_cd = 600.0
@@ -114,7 +114,7 @@
 		shearing_cd = 300.0
 		#Consuming food gives this amount of sanity for every half-drumstick the meal restores
 		#Range: -100.0 ~ 100.0
-		eating = 0.8
+		eating = 0.1
 		#Eating cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
 		eating_cd = 300.0
